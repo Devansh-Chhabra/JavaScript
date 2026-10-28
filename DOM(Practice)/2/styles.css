@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    padding: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+}
+
+.card{
+    max-width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #555;
+    color: white;
+}
+
+.card h5{
+    margin-top: 3px;
+}
+
+.card p{
+    font-size: 12px;
+    margin-top: 10px;
+
+} 
+
+.profile{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
